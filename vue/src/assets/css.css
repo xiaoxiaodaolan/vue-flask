@@ -1,0 +1,283 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+	#all{
+		background-color: white;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		/* position: fixed; */
+	}
+	#aside{
+		position: fixed;
+		background-color:grey;
+		float: left;
+		width: 11%;
+		height:100% ;
+	}
+	#header{
+		width: 100%;
+		height: 10%;
+		background-color: black;
+		text-align: center;
+	}
+	#header h1{
+		text-decoration: none;
+		color: white;
+		line-height: 70px;
+	}
+	#nav{
+		
+	}
+	.btn{
+		border: 0px;
+		background-color: grey;
+		color: white;
+		font-size: large;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.btn:hover{
+		cursor: pointer;
+	}
+	span{
+		
+		color: white;
+	}
+	span:hover{
+		color: black;
+	}
+	.top{
+		line-height: 80px;
+		width: 89%;
+		height: 10%;
+		float: right;
+		background-color: grey;
+	}
+	.p2{
+		color: white;
+		font-weight: bold;
+		font-size: x-large;
+	}
+	.p2:hover{
+		color: black;
+	}
+	#div1{
+		width: 1200px;
+		margin: 0 auto;
+		margin-left: 250px;
+	}
+	.table1 td{
+		border: 1px solid black;
+	}
+	.table1{
+		border-collapse: collapse;
+		width: 1000px;
+		float: left;
+	}
+	.table1 td{
+		line-height: 25px;
+		text-align: center;
+	}
+	.table2{
+		width: 200px;
+		border: 1px solid black;
+	}
+	.table2 td p{
+		text-align: center;
+	}
+	.table2 td p input{
+		width: 100px;
+	}
+	
+	#div3{
+		margin-left: 205px;
+		height: 50px;
+	}
+	.query{
+		line-height: 50px;
+	}
+	.button1{
+		background-color:deepskyblue;
+		padding: 5px;
+		border-radius: 8px;
+	}
+	.button1:hover{
+		background-color: powderblue;
+	}
+	.input1{
+		width: 500px;
+		line-height: 30px;
+	}
+	
+	.p1{
+		font-size: large;
+		font-weight: bold;
+	}
+	#app{
+		margin-top: 0px;
+	}
+	/* shouye */
+	.sh1{
+		text-align: center;
+		padding-top: 50px;
+	}
+	.btn2{
+		border: 0px;
+		background-color: grey;
+		line-height: 50px;
+		font-weight: bold;
+		font-size: large;
+		margin-right: 10px;
+	}
+	.btn-2{
+		float: right;
+	}
+	/* 学生用户 */
+	.table{
+		margin: 0 auto;
+		
+	}
+	.table p{
+		text-align: center;
+		margin-top: 20px;
+		
+	}
+	.table p input{
+		line-height: 20px;
+	}
+	.fieldset1{
+		margin: 0 auto;
+		width: 700px;
+	}
+	.legend1{
+		font-size: 30px;
+	}
+	.btn1{
+		
+	}	
+
+	.table3,tr,td{
+		width: 1000px;
+		border: 1px solid black;
+		border-collapse: collapse;
+		margin: 0 auto;
+	}
+	.table3 th{
+		font-size: 30px;
+		width: 600px;
+	}
+	.table3 td{
+		text-align: center;
+		padding:5px 5px 5px 5px;
+	}
+	/* stu.vue */
+	.table4 td{
+		border: 1px solid black;
+	}
+	.table4{
+		border-collapse: collapse;
+		width: 1300px;
+		float: left;
+	}
+	.table4 th{
+		border: 1px solid black;
+	}
+	.table4 td{
+		line-height: 25px;
+		text-align: center;
+	}
+	.fieldset2{
+		width: 1300px;
+	}
+	.legend2{
+		font-weight: bold;
+	}
+	/* xiala */
+	#caidan1{
+		display: none;
+	}
+	/* 图书查询 */
+	.btn3{
+		padding: 5px;
+	}
+	input{
+		width: 200px;
+	}
+	.input{
+		width: 10px;
+	}
+	.span2{
+		margin-right: 50px;
+	}
+	/* 组件库 */
+	.el-input{
+		width: 50%;
+		margin: 10px 0px 10px 0px;
+	}
+	.el-input2{
+		width: 100%;
+	}
+	/* 登录注册 */
+	.link:hover{
+		color: beige;
+	}
+	img{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+	}
+	.loginPart{
+	    position:absolute;
+	    /*定位方式绝对定位absolute*/
+	    top:50%;
+	    left:50%;
+	    /*顶和高同时设置50%实现的是同时水平垂直居中效果*/
+	    transform:translate(-50%,-50%);
+	    /*实现块元素百分比下居中*/
+	    width:450px;
+	    padding:50px;
+	    background: rgba(0,0,0,.5);
+	    /*背景颜色为黑色，透明度为0.8*/
+	    box-sizing:border-box;
+	    /*box-sizing设置盒子模型的解析模式为怪异盒模型，
+	    将border和padding划归到width范围内*/
+	    box-shadow: 0px 15px 25px rgba(0,0,0,.5);
+	    /*边框阴影  水平阴影0 垂直阴影15px 模糊25px 颜色黑色透明度0.5*/
+	    border-radius:15px;
+	    /*边框圆角，四个角均为15px*/
+	  }
+	  .loginPart h2{
+	    margin:0 0 30px;
+	    padding:0;
+	    color: #fff;
+	    text-align:center;
+	    /*文字居中*/
+	  }
+	  .loginPart .inputbox{
+	    position:relative;
+	  }
+	  .loginPart .inputElement input{
+	    width: 350px;
+	    padding:10px 0;
+	    font-size:16px;
+	    color:#fff;
+	    letter-spacing: 1px;
+	    /*字符间的间距1px*/
+	    margin-bottom: 30px;
+	    border:none;
+	    border-bottom: 1px solid #fff;
+	    outline:none;
+	    /*outline用于绘制元素周围的线
+	    outline：none在这里用途是将输入框的边框的线条使其消失*/
+	    background: transparent;
+	    /*背景颜色为透明*/
+	  }
+	
+	  .login{
+	    width:100%;
+	    height:100%;
+	  }
+	  
